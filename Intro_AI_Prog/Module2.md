@@ -15,9 +15,22 @@ Project_1 (using an Image classifier)
 - [Contributing](#contributing)
 - [License](#license)
 
-## About
+## Arthimetic Operators
 
-Provide a brief introduction to your project. Explain what it does and why it's useful.
++ Addition
+- Subtraction
+* Multiplication
+/ Division
+% Mod (the remainder after dividing)
+** Exponentiation (note that ^ does not do this operation, as you might have seen in other languages)
+// Divides and rounds down to the nearest integer
+The usual order of mathematical operations holds in Python, often referred to as 
+
+PEMDAS: Parentheses, Exponents, Multiplication/Division, Addition/Subtraction.
+
+If needed, you can review the order of mathematical operations in this Wikipedia article Order of Operations.
+
+Bitwise operators are special operators in Python that you can learn more about here if you'd like.
 
 ## Getting Started
 
