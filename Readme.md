@@ -1,4 +1,4 @@
-# Project Name
+# AI Programming with Python
 
 Challenge portion of the Udacity's AI Programming with Python
 
