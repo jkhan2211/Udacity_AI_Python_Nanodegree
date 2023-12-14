@@ -17,13 +17,13 @@ Project_1 (using an Image classifier)
 
 ## Arthimetic Operators
 
-- + Addition
-- - Subtraction
-- * Multiplication
-- / Division
-- % Mod (the remainder after dividing)
-- ** Exponentiation (note that ^ does not do this operation, as you might have seen in other languages)
-- // Divides and rounds down to the nearest integer
+- (+) Addition
+- (-) Subtraction
+- (*) Multiplication
+- (/) Division
+- (%) Mod (the remainder after dividing)
+- (**) Exponentiation (note that ^ does not do this operation, as you might have seen in other languages)
+- (//) Divides and rounds down to the nearest integer
 
 The usual order of mathematical operations holds in Python, often referred to as 
 PEMDAS: Parentheses, Exponents, Multiplication/Division, Addition/Subtraction.
