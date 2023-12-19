@@ -13,7 +13,7 @@ Project_1 (using an Image classifier)
 - [Variables 2](#var-2)
 - [Assignment Operators](#assignment-operators)
 - [Strings](#strings)
-- [Quiz Questions](#quiz)
+- [Quiz Questions](#quiz-questions)
 
 ## Arthimetic Operators
 
@@ -133,6 +133,8 @@ family_name = "Pitt"
 # Todo: calculate how long this name is
 name_length = len(given_name + " " + middle_names + " " + family_name)
 
+#Alternative solution
+name_length = len(given_name) + len(middle_names) + len(family_name) + 2
 
 # Now we check to make sure that the name fits within the driving license character limit
 # Uncomment the code below. You don't need to make changes to the code.
