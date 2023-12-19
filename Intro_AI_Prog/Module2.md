@@ -75,6 +75,52 @@ My_Lat = 105
 | += | x += 2 | x = x + 2 |
 | -= | x -= 2 | x = x - 2 |
 
-1. **Prerequisites:** List any software or dependencies that need to be installed before running the project.
+## Strings
+```
+>>> my_string = 'this is a string!'
+>>> my_string2 = "this is also a string!!!"
+```
 
-2. **Installation:** Describe the steps to install the project. You 
+You can also include a \ in your string to be able to include one of these quotes:
+
+```
+>>> this_string = 'Simon\'s skateboard is in the garage.'
+>>> print(this_string)
+```
+
+### Concateting String and len()
+```
+>>> first_word = 'Hello'
+>>> second_word = 'There'
+>>> print(first_word + second_word)
+
+HelloThere
+
+>>> print(first_word + ' ' + second_word)
+
+Hello There
+
+>>> print(first_word * 5)
+
+HelloHelloHelloHelloHello
+
+>>> print(len(first_word))
+
+5
+```
+Pick a character from string
+```
+>>> first_word[0]
+
+H
+
+>>> first_word[1]
+
+e
+```
+
+### len() function
+```
+print(len("ababa") / len("ab"))
+2.5
+```
