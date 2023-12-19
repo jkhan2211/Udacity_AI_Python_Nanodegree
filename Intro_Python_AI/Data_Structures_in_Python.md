@@ -67,3 +67,17 @@ True
 >>> 5 in [1, 2, 3, 4, 6]
 False
 ```
+
+### Mutability and Order
+
+Mutability refers to whether or not we can change an object once it has been created. If an object can be changed, it is called mutable. However, if an object cannot be changed after it has been created, then the object is considered immutable.
+
+```
+>>> my_lst = [1, 2, 3, 4, 5]
+>>> my_lst[0] = 'one'
+>>> print(my_lst)
+['one', 2, 3, 4, 5]
+```
+
+Order is about whether the position of an element in the object can be used to access the element. Both strings and lists are ordered. We can use the order to access parts of a list and string.
+
