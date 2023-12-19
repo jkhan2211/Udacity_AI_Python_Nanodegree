@@ -32,9 +32,48 @@ If needed, you can review the order of mathematical operations in this Wikipedia
 
 Bitwise operators are special operators in Python that you can learn more about here if you'd like.
 
-## Getting Started
+### Quiz Question
+```
+print((17 - 6))
+```
+Which of these lines of Python code are well formatted? How would you improve the readability of the codes that don't use good formatting? (Choose all that apply)
 
+
+## Variables I
+```
+mv_population = 747728
+```
+## Variables II
+```
+x = 3
+y = 4
+z = 5
+```
+and 
+```
+x, y, z = 3, 4, 5
+```
 These instructions will help you get a copy of the project up and running on your local machine for development and testing purposes.
+
+### Correct way of Variables
+```
+my_height = 58
+my_lat = 40
+my_long = 105
+```
+### Incorrect way of Variables
+```
+my Height = 58
+MYLONG = 40
+My_Lat = 105
+```
+
+### Assignment Operators
+| Symbol | Example | Equivalent |
+| --------------- | --------------- | --------------- |
+| Row 1, Column 1 | Row 1, Column 2 | Row 1, Column 3 |
+| Row 2, Column 1 | Row 2, Column 2 | Row 2, Column 3 |
+| Row 3, Column 1 | Row 3, Column 2 | Row 3, Column 3 |
 
 1. **Prerequisites:** List any software or dependencies that need to be installed before running the project.
 
