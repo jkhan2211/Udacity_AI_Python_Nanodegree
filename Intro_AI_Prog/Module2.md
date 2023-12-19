@@ -13,7 +13,7 @@ Project_1 (using an Image classifier)
 - [Variables 2](#var-2)
 - [Assignment Operators](#assignment-operators)
 - [Strings](#strings)
-- [Quiz Question](#quiz)
+- [Quiz Questions](#quiz)
 
 ## Arthimetic Operators
 
