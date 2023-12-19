@@ -8,12 +8,11 @@ Project_1 (using an Image classifier)
 
 ## Table of Contents
 
-- [About](#about)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
+- [Arthimetic Operators](#arthimetic-operators)
+- [Variables I](#var-1)
+- [Variables 2](#var-2)
+- [Assignment Operators](#assignment-operators)
+- [Strings](#strings)
 
 ## Arthimetic Operators
 
@@ -68,7 +67,7 @@ MYLONG = 40
 My_Lat = 105
 ```
 
-### Assignment Operators
+## Assignment Operators
 | Symbol | Example | Equivalent |
 | --------------- | --------------- | --------------- |
 | = | x = 2 | x = 2 |
