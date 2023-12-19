@@ -71,9 +71,9 @@ My_Lat = 105
 ### Assignment Operators
 | Symbol | Example | Equivalent |
 | --------------- | --------------- | --------------- |
-| Row 1, Column 1 | Row 1, Column 2 | Row 1, Column 3 |
-| Row 2, Column 1 | Row 2, Column 2 | Row 2, Column 3 |
-| Row 3, Column 1 | Row 3, Column 2 | Row 3, Column 3 |
+| = | x = 2 | x = 2 |
+| += | x += 2 | x = x + 2 |
+| -= | x -= 2 | x = x - 2 |
 
 1. **Prerequisites:** List any software or dependencies that need to be installed before running the project.
 
