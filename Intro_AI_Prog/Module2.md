@@ -123,3 +123,19 @@ e
 print(len("ababa") / len("ab"))
 2.5
 ```
+
+### Quiz Questions
+```
+given_name = "William"
+middle_names = "Bradley"
+family_name = "Pitt"
+# Todo: calculate how long this name is
+name_length = len(given_name + " " + middle_names + " " + family_name)
+
+
+# Now we check to make sure that the name fits within the driving license character limit
+# Uncomment the code below. You don't need to make changes to the code.
+
+driving_license_character_limit = 28
+print(name_length <= driving_license_character_limit)
+```
