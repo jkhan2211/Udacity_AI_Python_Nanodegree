@@ -13,6 +13,7 @@ Project_1 (using an Image classifier)
 - [Variables 2](#var-2)
 - [Assignment Operators](#assignment-operators)
 - [Strings](#strings)
+- [Quiz Question](#quiz)
 
 ## Arthimetic Operators
 
@@ -124,7 +125,7 @@ print(len("ababa") / len("ab"))
 2.5
 ```
 
-### Quiz Questions
+## Quiz Questions
 ```
 given_name = "William"
 middle_names = "Bradley"
