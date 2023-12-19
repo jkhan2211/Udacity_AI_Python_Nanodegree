@@ -1,4 +1,4 @@
-# Module 2: Intro to Python
+# Module 2: Data Types and Operators
 
 Lessons
 (Why Python Programming, Data Types and Operators, Control Flow ,Functions and Scripting)
