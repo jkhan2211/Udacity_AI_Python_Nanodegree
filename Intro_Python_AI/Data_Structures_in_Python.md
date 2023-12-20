@@ -81,3 +81,29 @@ Mutability refers to whether or not we can change an object once it has been cre
 
 Order is about whether the position of an element in the object can be used to access the element. Both strings and lists are ordered. We can use the order to access parts of a list and string.
 
+### Quiz
+#### Quiz: List indexing
+```
+month = 8
+days_in_month = [31,28,31,30,31,30,31,31,30,31,30,31]
+
+# TODO: replace None with appropriate code
+# Use list indexing to determine the number of days in `month`
+num_days = days_in_month[len(days_in_month) -1]
+num_days_alternative = days_in_month[month - 1]
+print(num_days)
+```
+
+#### Quiz: Dicing
+```
+eclipse_dates = ['June 21, 2001', 'December 4, 2002', 'November 23, 2003',
+                 'March 29, 2006', 'August 1, 2008', 'July 22, 2009',
+                 'July 11, 2010', 'November 13, 2012', 'March 20, 2015',
+                 'March 9, 2016']          
+                 
+# TODO: Replace None with appropriate code
+# Modify this code so it prints the last three elements of the list
+last_three_dates = eclipse_dates[7:]
+last_three_dates_alternative = eclipse_dates[-3:]
+print(last_three_dates)
+```
