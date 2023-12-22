@@ -107,3 +107,67 @@ last_three_dates = eclipse_dates[7:]
 last_three_dates_alternative = eclipse_dates[-3:]
 print(last_three_dates)
 ```
+
+### List Method
+
+Useful Functions for List 1
+- len()
+- max() dependes what type of object 
+- min()
+- sorted()
+
+Useful Functions for List 2
+- join method
+```
+new_str = "/n".join(["fore", "aft", "starboard", "port"])
+print(new_str)
+
+>>> fore
+>>> aft
+>>> starboard
+>>> port
+
+name = "-".join(["Garcia", "O'Kelly", "Davis"])
+print(name)
+
+>>> Garcia-O'Kelly-Davis
+```
+
+append method
+```
+letters = ['a', 'b', 'c', 'd']
+letters.append('z')
+print(letters)
+
+>>> ['a', 'b', 'c', 'd']
+```
+
+List: Quiz
+
+Quiz1: Which of the following statements about data types and data structures are true? Select all that applies
+- Data structures are containers that can include different type of data
+- A list is an example of a data structure
+- All generic data structures are data types 
+
+Quiz2: Which of the following are properties of lists?
+- Mutable
+- Ordered
+
+### Tuples
+- data types that are immutable ordered sequence of elements
+
+```
+location = (13.4321, 103.44452)
+print("latitude:", location[0])
+print("longitude:", location[1])
+```
+
+```
+dimensions = 20, 32, 12
+length, width, height = dimensions
+print("The dimensions are {} x {} x {}".format(length, width, height))
+
+length = 52, 30, 100
+print("The dimensions are {} x {} x {}".format(length, width, height))
+
+```
