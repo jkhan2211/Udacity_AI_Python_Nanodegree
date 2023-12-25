@@ -171,3 +171,35 @@ length = 52, 30, 100
 print("The dimensions are {} x {} x {}".format(length, width, height))
 
 ```
+
+Quiz1- Tuple
+Tuples - ordered, immutable 
+Lists - ordered, mutable
+
+
+### Sets 
+
+- set is a data type for mutable unordered collection of unique elements. One application is a set is to quickly remove duplicates from list
+
+```
+fruits = {"apple", "bannana", "orange"}
+```
+
+Quiz Question
+```
+a = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
+b = set(a)
+print(len(a) - len(b))
+```
+
+List a has 10 elements, set b(created from list a) has 4 elements 
+10 - 4 = 6
+
+Ques 2
+```
+a = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
+b = set(a)
+b.add(5)
+b.pop()
+```
+Maybe
