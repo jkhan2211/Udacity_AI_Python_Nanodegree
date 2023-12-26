@@ -203,3 +203,17 @@ b.add(5)
 b.pop()
 ```
 Maybe
+
+
+### Dictionary and Identity Operators 
+
+Dictionaries 
+- A dictionary is a mutable data type that stores maps of unique keys to values
+
+```
+elements = {"hydrogen": 1, "helium": 2, "carbon": 6}
+```
+
+Identity Operators 
+is - evaluates if both side have the same identity
+is not - evaluates if both sides have different identities 
