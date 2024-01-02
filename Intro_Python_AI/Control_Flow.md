@@ -8,9 +8,6 @@ if phone_balance < 5:
     bank_balance -= 10
 ```
 
-
-# Control Flow
-
 ## IF, Elif, Else Statement
 
 ```
