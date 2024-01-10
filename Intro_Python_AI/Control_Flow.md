@@ -86,3 +86,133 @@ cities = ['new york city', 'mountain view', 'chicago', 'los angeles']
 for index in range(len(cities)):
     cities[index] = cities[index].title()
 ```
+
+
+## Quiz_for_loop
+
+### Quiz Solution: Create Usernames
+```
+names = ["Joey Tribianni", "Monica Geller", "Chandler Bing", "Pheobe Buffay"]
+usernames = []
+
+for name in names:
+    usernames.append(name.lower().replace(" ", "_"))
+print(usernames)
+```
+
+### Quiz Solution: Modify Usernames with range
+```
+usernames =  ["Joey Tribianni", "Monica Geller", "Chandler Bing", "Pheobe Buffay"]
+
+for i in range(len(usernames)):
+    usernames[i] = usernames[i].lower().replace(" ", "_")
+print(usernames)
+```
+
+### Quiz Solution: Tag Counter
+
+```
+tokens = ['<greeting>', 'Hello World!', </greeting>]
+count = 0
+for token in tokens:
+    if token[0] == '<' and token[-1] == '>':
+        count +=1
+print(count)
+```
+
+### Quiz Solution: Create an HTML List
+
+```
+items = ['first string', 'second string']
+html_str = "<ul>\n"
+
+for item in items:
+    html_str += "<li>{}</li>\n.format(item)"
+html_str += "</ul>"
+print(html_str)
+```
+
+
+## Building Dictionaries
+
+#### Method 1: Using a for loop to create a set of counters
+Let's start with a list containing the words in a series of book titles
+
+```
+book_title =  ['great', 'expectations','the', 'adventures', 'of', 'sherlock','holmes','the','great','gasby','hamlet','adventures','of','huckleberry','fin']
+```
+
+Step1: Create a Dictionary 
+```
+word_counter = {}
+```
+
+Step2:  Iterate through each element in the list. If an element is already included in the dictionary, add 1 to its value. If not, add the element to the dictionary and set its value to 1. 
+```
+for word in book_title: if word not in word_counter: word_counter[word] = 1 else: word_counter[word] += 1
+```
+
+Output:
+```
+{'great': 2, 'expectations': 1, 'the': 2, 'adventures': 2, 'of': 2, 'sherlock': 1, 'holmes': 1, 'gasby': 1, 'hamlet': 1, 'huckleberry': 1, 'fin': 1}
+```
+
+##### Method 2: Using the get method
+
+```
+book_title =  ['great', 'expectations','the', 'adventures', 'of', 'sherlock','holmes','the','great','gasby','hamlet','adventures','of','huckleberry','fin']
+```
+
+Step 1: Create an empty dictionary.
+
+```
+word_counter = {}
+```
+
+Step 2. Iterate through each element, get() its value in the dictionary, and add 1.
+
+```
+for word in book_title:
+    word_counter[word] = word_counter.get(word, 0) + 1
+```
+
+Step3: 
+Printing word_counter shows us we get the same result as we did in method 1. 
+```
+{'great': 2, 'expectations': 1, 'the': 2, 'adventures': 2, 'of': 2, 'sherlock': 1, 'holmes': 1, 'gasby': 1, 'hamlet': 1, 'huckleberry': 1, 'fin': 1}
+```
+
+#### Iterating Through Dictionaries with For Loops
+
+```
+cast = {
+           "Jerry Seinfeld": "Jerry Seinfeld",
+           "Julia Louis-Dreyfus": "Elaine Benes",
+           "Jason Alexander": "George Costanza",
+           "Michael Richards": "Cosmo Kramer"
+       }
+for key in cast:
+    print(key)
+```
+
+Output:
+```
+Jerry Seinfeld
+Julia Louis-Dreyfus
+Jason Alexander
+Michael Richards
+```
+
+```
+for key, value in cast.items():
+    print("Actor: {}    Role: {}".format(key, value))
+```
+
+This outputs:
+
+```
+Actor: Jerry Seinfeld    Role: Jerry Seinfeld
+Actor: Julia Louis-Dreyfus    Role: Elaine Benes
+Actor: Jason Alexander    Role: George Costanza
+Actor: Michael Richards    Role: Cosmo Kramer
+```
