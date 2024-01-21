@@ -356,10 +356,11 @@ while (count_odd < 5) and (i < len_num_list):
         list_sum += num_list[i]
         count_odd += 1
     i += 1
-
+```
+```
 print ("The numbers of odd numbers added are: {}".format(count_odd))
 print ("The sum of the odd numbers added is: {}".format(list_sum))
-
+```
 
 
 ## Quiz:
