@@ -337,6 +337,7 @@ print(first_names)
 
 Output:
 ```
+['rick', 'morty', 'summer', 'jerry', 'beth']
 ```
 
 ### Quiz: Extract First Names (Sol 2)
