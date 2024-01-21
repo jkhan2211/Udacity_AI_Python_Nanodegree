@@ -359,7 +359,8 @@ while (count_odd < 5) and (i < len_num_list):
 
 print ("The numbers of odd numbers added are: {}".format(count_odd))
 print ("The sum of the odd numbers added is: {}".format(list_sum))
-```
+
+
 
 ## Quiz:
 Sometimes we need more control over when a loop should end, or skip an iteration. In these cases, we use the break and continue keywords, which can be used in both for and while loops.
