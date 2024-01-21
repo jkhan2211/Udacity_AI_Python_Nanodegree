@@ -295,3 +295,31 @@ Output:
 ['Barney Stinson 72', 'Robin Scherbatsky 68', 'Ted Mosby 72', 'Lily Aldrin 66', 'Marshall Eriksen 76']
 
 ```
+
+## List Comprehensions 
+
+```
+capitalized_cities = []
+for city in cities:
+    capitalized_cities.append(city.title())
+```
+Can be reduced to:
+
+```
+capitalized_cities = [city.title() for city in cities]
+```
+
+### Conditionals in List Comprehensions
+
+```
+squares = [x**2 for x in range(9) if x % 2 == 0]
+```
+
+```
+squares = [x**2 for x in range(9) if x % 2 == 0 else x + 3]
+```
+
+```
+squares = [x**2 if x % 2 == 0 else x + 3 for x in range(9)]
+```
+
