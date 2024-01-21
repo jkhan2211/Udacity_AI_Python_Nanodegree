@@ -83,3 +83,33 @@ current weight: 81
 Final Weight: 86
 Final Items: ['bananas', 'mattresses', 'dog kennels', 'cheeses']
 ```
+
+
+## Break Quiz
+
+```
+# List of headlines
+headlines = ["Headline1", "Headline2", "Headline3", "Headline4", "Headline5"]
+
+# Initialize the new ticker string
+new_tick = ""
+
+# Loop through the headlines
+for headline in headlines:
+    # Check if adding the next headline exceeds the length limit
+    if len(new_tick) + len(headline) + 1 > 140:
+        # Calculate the remaining space and truncate the headline if needed
+        remaining_space = 140 - len(new_tick) - 1  # -1 for the space
+        new_tick += " " + headline[:remaining_space]
+        break
+    else:
+        # Add the headline with a space (except for the first headline)
+        if new_tick:
+            new_tick += " "
+        new_tick += headline
+
+# Print the result
+print("Ticker:", new_tick)
+print("Length of ticker:", len(new_tick))
+
+```
