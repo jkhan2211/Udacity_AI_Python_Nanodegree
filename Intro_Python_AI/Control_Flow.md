@@ -279,3 +279,90 @@ while break_num < end_num:
 print("The value of break_num after the loop is:", break_num)
 ```
 
+## Quiz: Count By Check
+
+```
+start_num = 5
+end_num = 100
+count_by = 2
+
+if start_num > end_num:
+    result = "Oops! Looks like your start value is greater than the end value. Please try again."
+
+else:
+    break_num = start_num
+    while break_num < end_num:
+        break_num += count_by
+
+    result = break_num
+
+print(result)
+```
+
+### Solution: Nearest Square
+
+```
+limit = 40
+
+num = 0
+while (num+1)**2 < limit:
+    num += 1
+nearest_square = num**2
+
+print(nearest_square)
+```
+
+
+### For Loops vs While Loops
+
+`for` loops are ideal when the number of iterations is known or finite
+
+Examples:
+- When you have iterable collection(list, string, set, tuple, dictionary)
+- When you want to iterate through a loop for a definite number of times, using range()
+
+`while` loops are ideal when the iterations need to continue until a condition is met
+Examples:
+- When you want to use comparasion operators
+- When you want to loop based on recieving specefic user input
+
+## Quiz: 
+Question: You need to write a loop that takes the numbers in a given ```
+list named num_list:
+num_list = [422, 136, 524, 85, 96, 719, 85, 92, 10, 17, 312, 542, 87, 23, 86, 191, 116, 35, 173, 45, 149, 59, 84, 69, 113, 166]
+```
+
+Your code should add up the odd numbers in the list, but only up to the first 5 odd numbers together. If there are more than 5 odd numbers, you should stop at the fifth. If there are fewer than 5 odd numbers, add all of the odd numbers.
+
+
+Our solution:
+We would write a while loop to write this code for the following reasons:
+
+We don't need a break statement that a for loop will require. Without a break statement, a for loop will iterate through the whole list, which is not efficient.
+We don't want to iterate over the entire list, but only over the required number of elements in the list that meets our condition.
+It is easier to understand because you explicitly control the exit conditions for the loop.
+Here's the code we wrote:
+
+```
+num_list = [422, 136, 524, 85, 96, 719, 85, 92, 10, 17, 312, 542, 87, 23, 86, 191, 116, 35, 173, 45, 149, 59, 84, 69, 113, 166]
+
+count_odd = 0
+list_sum = 0
+i = 0
+len_num_list = len(num_list)
+
+while (count_odd < 5) and (i < len_num_list): 
+    if num_list[i] % 2 != 0:
+        list_sum += num_list[i]
+        count_odd += 1
+    i += 1
+
+print ("The numbers of odd numbers added are: {}".format(count_odd))
+print ("The sum of the odd numbers added is: {}".format(list_sum))
+```
+
+## Quiz:
+Sometimes we need more control over when a loop should end, or skip an iteration. In these cases, we use the break and continue keywords, which can be used in both for and while loops.
+
+break terminates a loop
+continue skips one iteration of a loo
