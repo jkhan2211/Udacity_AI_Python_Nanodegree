@@ -379,3 +379,70 @@ Output:
 ```
 ['Beth Smith', 'Summer Smith', 'Rick Sanchez']
 ```
+
+
+## Final Quiz
+
+### Question 1
+
+```
+nom_count_dict = {}
+for val in nominated.values():
+    for element in val:
+        if element in nom_count_dict:
+            nom_count_dict[element] +=1
+        else:
+            nom_count_dict[element] = 1
+print(nom_count_dict)
+```
+
+
+### Question 1B
+
+```
+# Question 1B: Create dictionary with the count of Oscar wins for each director
+win_count_dict = {}
+# Add your code here, make sure your result is stored in `win_count_dict`
+for val in winners.values():
+    for elem in val:
+        win_count_dict[elem] = win_count_dict.get(elem, 0) + 1
+print(win_count_dict)
+```
+
+
+### Question 2
+
+```
+
+# Add your code here, make sure your result is stored in `most_win_director`
+
+#FIRST PART OF SOLUTION
+win_count_dict = {}
+for year, winnerlist in winners.items():
+    for winner in winnerlist:
+        win_count_dict[winner] = win_count_dict.get(winner, 0) + 1
+        
+#SECOND PART OF SOLUTION
+highest_count = 0
+most_win_director = []
+
+for key, value in win_count_dict.items():
+    if value > highest_count:
+        highest_count = value
+        most_win_director.clear()
+        most_win_director.append(key)
+    elif value == highest_count:
+        most_win_director.append(key)
+    else:
+        continue
+print(win_count_dict)
+```
+
+### Alternative Solution
+
+```
+#ALTERNATIVE SECOND PART OF SOLUTION
+highest_count = max(win_count_dict.values())
+
+most_win_director = [key for key, value in win_count_dict.items() if value == highest_count]
+```
