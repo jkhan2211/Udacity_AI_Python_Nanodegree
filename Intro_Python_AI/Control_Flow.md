@@ -327,7 +327,9 @@ Examples:
 - When you want to loop based on recieving specefic user input
 
 ## Quiz: 
-Question: You need to write a loop that takes the numbers in a given ```
+Question: You need to write a loop that takes the numbers in a given 
+
+```
 list named num_list:
 num_list = [422, 136, 524, 85, 96, 719, 85, 92, 10, 17, 312, 542, 87, 23, 86, 191, 116, 35, 173, 45, 149, 59, 84, 69, 113, 166]
 ```
