@@ -343,6 +343,8 @@ We don't want to iterate over the entire list, but only over the required number
 It is easier to understand because you explicitly control the exit conditions for the loop.
 Here's the code we wrote:
 
+
+
 ```
 num_list = [422, 136, 524, 85, 96, 719, 85, 92, 10, 17, 312, 542, 87, 23, 86, 191, 116, 35, 173, 45, 149, 59, 84, 69, 113, 166]
 
@@ -356,15 +358,8 @@ while (count_odd < 5) and (i < len_num_list):
         list_sum += num_list[i]
         count_odd += 1
     i += 1
-```
-```
+
 print ("The numbers of odd numbers added are: {}".format(count_odd))
 print ("The sum of the odd numbers added is: {}".format(list_sum))
 ```
 
-
-## Quiz:
-Sometimes we need more control over when a loop should end, or skip an iteration. In these cases, we use the break and continue keywords, which can be used in both for and while loops.
-
-break terminates a loop
-continue skips one iteration of a loo
