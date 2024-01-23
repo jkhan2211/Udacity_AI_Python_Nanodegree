@@ -55,3 +55,61 @@ print(readable_timedelta(1))
 print(readable_timedelta(30))
 print(readable_timedelta(70))
 ```
+
+### Variable Scope
+
+```
+## This will result in an error
+def some_function():
+    word = "hello"
+ 
+print(word)
+```
+
+
+```
+## This works fine
+def some_function():
+    word = "hello"
+ 
+def another_function():
+    word = "goodbye"
+```
+
+
+```
+## This works fine
+word = "hello"
+
+def some_function():
+    print(word)
+
+some_function()```
+Notice that we can still access the value of the global variable `word` within this function. However, the value of a global variable can not be __modified__ inside the function. If you want to modify that variable's value inside this function, it should be passed in as an argument. You'll see more on this in the next quiz.
+
+Scope is essential to understanding how information is passed throughout programs in Python and really any programming language.
+```
+
+
+Quiz Solution: Variable Scope
+The code snippet on the previous page is repeated here:
+
+```
+egg_count = 0
+
+def buy_eggs():
+    egg_count += 12 # purchase a dozen eggs
+
+buy_eggs()
+```
+
+A better way to write this:
+
+```
+egg_count = 0
+
+def buy_eggs(count):
+    return count + 12  # purchase a dozen eggs
+
+egg_count = buy_eggs(egg_count)
+```
