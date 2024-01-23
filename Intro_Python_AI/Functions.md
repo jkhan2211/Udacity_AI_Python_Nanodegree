@@ -113,3 +113,18 @@ def buy_eggs(count):
 
 egg_count = buy_eggs(egg_count)
 ```
+
+### Lambda Functions
+
+With a lambda expression, this function:
+
+```
+def multiply(x, y):
+    return x * y
+```
+
+can be reduced to:
+
+```
+multiply = lambda x, y: x * y
+```
