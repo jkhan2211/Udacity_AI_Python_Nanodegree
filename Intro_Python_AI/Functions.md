@@ -128,3 +128,38 @@ can be reduced to:
 ```
 multiply = lambda x, y: x * y
 ```
+
+
+### Quiz: Lambda with Maps
+
+```
+numbers = [
+              [34, 63, 88, 71, 29],
+              [90, 78, 51, 27, 45],
+              [63, 37, 85, 46, 22],
+              [51, 22, 34, 11, 18]
+           ]
+
+averages = list(map(lambda x: sum(x) / len(x), numbers))
+print(averages)
+```
+
+#### Ouput:
+```
+[57.0, 58.2, 50.6, 27.2]
+```
+
+### Quiz Solution: Lambda with Filter
+
+```
+cities = ["New York City", "Los Angeles", "Chicago", "Mountain View", "Denver", "Boston"]
+
+short_cities = list(filter(lambda x: len(x) < 10, cities))
+print(short_cities)
+```
+
+#### Ouput:
+
+```
+['Chicago', 'Denver', 'Boston']
+```
