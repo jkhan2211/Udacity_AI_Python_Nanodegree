@@ -68,3 +68,57 @@ except ValueError:
 except KeyboardInterrupt:
     # some code
 ```
+
+## Accessing Error Messages
+
+```
+try:
+    # some code
+except ZeroDivisionError as e:
+   # some code
+   print("ZeroDivisionError occurred: {}".format(e))
+```
+
+This would print something like this:
+```
+ZeroDivisionError occurred: integer division or modulo by zero
+```
+
+```
+try:
+    # some code
+except Exception as e:
+   # some code
+   print("Exception occurred: {}".format(e))
+```
+
+
+### With
+
+```
+with open('my_path/my_file.txt', 'r') as f:
+    file_data = f.read()
+```
+
+
+## Solution: Practice Debugging 
+
+```
+user_list = []
+list_sum = 0
+
+for i in range(10):
+	userInput = input("Enter any 2-digit number")
+	
+	
+	try:
+		user_list.append(new_user_input)
+		if userInput % 2 == 0:
+			list_sum += new_user_input
+	
+	except ValueError:
+		print("Incorrect value. ")
+		
+print("user_list: {}".format(user_list))
+print("The sum is {}".format(list_sum)) 
+```
