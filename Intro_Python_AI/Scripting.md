@@ -122,3 +122,31 @@ for i in range(10):
 print("user_list: {}".format(user_list))
 print("The sum is {}".format(list_sum)) 
 ```
+
+
+
+## Quiz Solution: Compute an Exponent
+We found the math module function exp in the documentation to do this for us.
+
+So here's our solution:
+```
+## calculate e to the power of 3 using the math module
+import math
+
+result = math.exp(3)
+```
+
+## Quiz Solution: Password Generator
+At the top we used import random.
+
+Then here is one possible version of a generate_password function, using random.choice:
+```
+def generate_password():
+    return random.choice(word_list) + random.choice(word_list) + random.choice(word_list)
+```
+Alternatively, you could use the random.sample function and .join method for strings:
+
+```
+def generate_password():
+    return ''.join(random.sample(word_list, 3))
+```

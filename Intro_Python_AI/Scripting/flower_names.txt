@@ -1,0 +1,26 @@
+A: African Daisy
+B: Bellflower
+C: Coral Bells
+D: Dahlia
+E: Echinacea
+F: Foxglove
+G: Geranium
+H: Hydrangea
+I: Iris
+J: Jasmine
+K: Kangaroo Paw
+L: Lavender
+M: Marigold
+N: Nasturtium
+O: Orchid
+P: Petunia
+Q: Queen Anne’s Lace
+R: Rose
+S: Sunflower
+T: Tulip
+U: Ursinia
+V: Violet
+W: Wisteria
+X: Xeranthemum
+Y: Yarrow
+Z: Zinnia
