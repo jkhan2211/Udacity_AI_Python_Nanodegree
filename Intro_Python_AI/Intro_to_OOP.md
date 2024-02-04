@@ -15,3 +15,16 @@ encapsulation - one of the fundamental ideas behind object-oriented programming 
 In English, you might hear an attribute described as a property, description, feature, quality, trait, or characteristic. All of these are saying the same thing.
 
 Here is a reminder of how a class, object, attributes and methods relate to each other.
+
+
+### Example: 
+
+Object: Stephen Hawking, Angela Merkel, Bradd Pitt
+
+Class: scientist, chancellor, actor
+
+Attribute: color, size, shape
+
+Method: to ring, to rain, to open
+
+Value: gray, large, round
