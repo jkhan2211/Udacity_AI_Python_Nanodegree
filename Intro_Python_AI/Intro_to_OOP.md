@@ -96,3 +96,23 @@ def init(self, shirt_color, shirt_size, shirt_size, shirt_price, shirt_material)
     self.price = shirt_price
     self.material = shirt_material
 ```
+
+
+Quiz Question
+
+Imagine we added a new variable to the Short class called "material." Which of the following would be a get method for that attribute.
+
+```
+def get_material(self):
+return self.material
+```
+
+Quiz Question
+
+Which of the following would be a set method for an attribute called "material" in the Shirt class
+
+```
+def change_material(self, new_material):
+self.material = new.material
+```
+
